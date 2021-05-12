@@ -1,4 +1,4 @@
 # GOAL
 
--   [ ] Java: swing template for a bank ATM machine.
--   [ ] Verilog: texture
+- [ ] Java: swing template for a bank ATM machine.
+- [ ] Verilog: texture
