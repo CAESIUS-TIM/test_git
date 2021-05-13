@@ -32,7 +32,7 @@ public class StudentImpl implements Student {
     @Override
     public void info(Consumer<String> consumer) {
         if (consumer == null) {
-            consumer = this.consumer;
+            consumer = StudentImpl.consumer;
         }
         consumer.accept(this.getInfo());
         consumer.accept(getInfo());
