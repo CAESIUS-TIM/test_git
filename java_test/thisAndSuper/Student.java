@@ -8,6 +8,4 @@ public interface Student{
     default void info(){
         info(null);
     }
-
-    
 }
