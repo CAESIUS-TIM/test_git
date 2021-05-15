@@ -33,7 +33,7 @@ gray = bin ^ (bin >> 1);
 {1,0000} ^ {0,1000} = 1000
 ```
 
-如果用尽内存。那么当队列为空时`head == tail`，队列为满时`head == (head + DATA_SIZE) % DATA_SIZE == tail`。所以一般的循环队列算法会舍弃一个字节，队列为满时``head == (head + 1 + DATA_SIZE) % DATA_SIZE == (tail + 1) % DATA_SIZE` 。
+如果用尽内存，那么当队列为空时`head == tail`，队列为满时`head == (head + DATA_SIZE) % DATA_SIZE == tail`。所以一般的循环队列算法会舍弃一个字节，队列为满时`head == (head + 1 + DATA_SIZE) % DATA_SIZE == (tail + 1) % DATA_SIZE` 。
 
 如果一个字节的子位很长，那么值得多用一位寄存器和一些电路去区分头尾指针的“正反面”：
 
