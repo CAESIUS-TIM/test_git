@@ -661,5 +661,5 @@ endmodule
 ### 3.4 上机结果
 
 <video id="video" controls="">
-    <source id="mp4" src="./assets/README/VID_20210514_235039.mp4" type="video/mp4">
+    <source id="mp4" src="./assets/README/out.mp4" type="video/mp4">
 </video>
