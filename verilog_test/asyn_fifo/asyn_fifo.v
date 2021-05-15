@@ -51,6 +51,8 @@ bin gray coin_gray
 110 101 111
 111 100 110
 */
+
+
 assign full = (
            (head_gray[ADDR_WIDTH:ADDR_WIDTH-1] == ~tail_gray[ADDR_WIDTH:ADDR_WIDTH-1]) &&
            (head_gray[ADDR_WIDTH-2:0] == tail_gray[ADDR_WIDTH-2:0])
