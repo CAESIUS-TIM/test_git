@@ -1,3 +1,5 @@
+`ifndef divider
+`define divider
 `include "../util/util.v"
 module divider #(
            parameter N = 5
@@ -52,3 +54,4 @@ end
 assign clk_out = (N == 1) ? clk_in: (N[0]) ? (clk_p & clk_n) : clk_p;
 
 endmodule
+`endif
