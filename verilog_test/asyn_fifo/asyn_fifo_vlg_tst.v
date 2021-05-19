@@ -53,6 +53,10 @@ always #`clk_cycle_wr clk_wr = ~clk_wr;
 always #`clk_cycle_rd clk_rd = ~clk_rd;
 
 initial begin
+	$stop; // add wave 
+end
+
+initial begin
 	clk_wr = 0;
 	clk_rd = 0;
 	rst = 1;
